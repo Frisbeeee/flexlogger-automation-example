@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="0A14826D706A9A0386804A6AB5C5DF0EFFECDDB482D3A4E0E2B73E8F76CE71F86AB48885D1B77B39406C8EFF545AF491A145AC227B8957B7028156B2B06C4952" Timestamp="1D7096A33E1B514" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.1.51107" FeatureSetName="Lumberjack Core" Name="http://www.ni.com/Lumberjack.Core" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.1.51107" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.1.51107" Name="FlexLogger" Version="21.0.1.0" />
+	</SourceModelFeatureSet>
+	<LoggingSpecification xmlns="http://www.ni.com/Lumberjack.Core">
+		<LoggingConfigurationModel Id="87cd85cb73904ff59a5ee337013920f1">
+			<ProcessingElementModelOwner Id="b81e3206ff7a450fb9f59ae2df0c5592">
+				<TriggeredLoggingProvider Id="aab66db721054cd09f9b7ca2006bdb5a" ModelTypeId="[string]CBA104E4-2D21-4AC7-915B-D7DCC1243DCE" StartTime="2021-02-22T16:10:05.506613599999999999969231556651294567927834577858448028564453125-06:00" />
+				<TdmsLoggingProvider DataReductionStrategy="Decimate" Id="1715670b42bf4cbcbda1521b0e80f5fe" LogFileBackupPath="&quot;C:\\Users\\Localization Tester\\Documents\\FlexLogger\\data\\backups&quot;" LogFileBasePath="&quot;C:\\sandbox\\flexlogger-automation-example\\FlexLogger-Project\\data&quot;" ModelTypeId="[string]59163356-411F-436B-A6B6-82FB1EFB19E1">
+					<UserDefinedMetadata Id="b5cc09a71ed74435a087d2feb6b2a61d">
+						<UserDefinedMetadataItem DataType="String" Id="61bd533af2214b24b179fe220361b54a" Name="DUT">
+							<p.Value>Rev3</p.Value>
+						</UserDefinedMetadataItem>
+						<UserDefinedMetadataItem DataType="String" Id="99d98ce2abab46a9bafd536b6626c3c0" Name="Location">
+							<p.Value>Austin</p.Value>
+						</UserDefinedMetadataItem>
+						<UserDefinedMetadataItem DataType="String" Id="324097ae50cb4b41b444924c168db331" Name="Test Station">
+							<p.Value>PT-2</p.Value>
+						</UserDefinedMetadataItem>
+					</UserDefinedMetadata>
+				</TdmsLoggingProvider>
+			</ProcessingElementModelOwner>
+		</LoggingConfigurationModel>
+	</LoggingSpecification>
+</SourceFile>
